@@ -1,0 +1,15 @@
+Gestion étudiant
+
+Pour créer mon site de gestion de base de données
+D’abord pour créer mon environnement de travail:
+- django-admin startproject « nom_projet»
+Ensuite on rentre dans notre projet:
+- Cd « nom_projet »
+On effectue la migration:
+- python3 manage.py migrate
+Run le server:
+- python3 manage.py runserver
+Crée un super utilisateur 
+- python3 manage.py createsuperuser
+Crée l’application du projet:
+- python3 manage.py startapp « nom_app »
